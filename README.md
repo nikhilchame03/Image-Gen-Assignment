@@ -2,7 +2,7 @@
 
 An AI-generated image gallery built with Next.js and Tailwind CSS, featuring filtering, tags, and authentication using Clerk. 
 
-**Deployed Link:**
+**Deployed Link:** https://image-gen-assignment-7d4w.vercel.app/
 
 ## Features  
 - **Image Display**:  
