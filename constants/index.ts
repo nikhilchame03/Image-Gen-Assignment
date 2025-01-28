@@ -14,11 +14,8 @@ export const sidebarLinks: SidebarLink[] = [
     route: "/",
     label: "Home",
   },
-  {
-    imgURL: "/assets/icons/tag.svg",
-    route: "/tags",
-    label: "Tags",
-  },
+  
+ 
   
 ];
 

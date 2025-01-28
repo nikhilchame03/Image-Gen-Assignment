@@ -10,13 +10,20 @@ interface ImageRenderProps {
   selectedFilter: string;
 }
 
-export default function ImageRender({ searchTerm, selectedFilter }: ImageRenderProps) {
-  const [images, setImages] = useState(imagesData.images);
+export default function ImageRender({
+  searchTerm,
+  selectedFilter,
+}: ImageRenderProps) {
+  const [images] = useState(imagesData.images);
 
   // Filter images based on the search term and selected filter
   const filteredImages = images.filter((image) => {
-    const matchesSearchTerm = image.title.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesFilter = selectedFilter ? image.aiModel === selectedFilter : true;
+    const matchesSearchTerm = image.title
+      .toLowerCase()
+      .includes(searchTerm.toLowerCase());
+    const matchesFilter = selectedFilter
+      ? image.aiModel === selectedFilter
+      : true;
     return matchesSearchTerm && matchesFilter;
   });
 
@@ -25,7 +32,10 @@ export default function ImageRender({ searchTerm, selectedFilter }: ImageRenderP
       <h1 className="text-2xl font-bold mb-4">AI Image Gallery</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {filteredImages.map((image) => (
-          <div key={image.id} className="border rounded-lg overflow-hidden shadow-lg">
+          <div
+            key={image.id}
+            className="border rounded-lg overflow-hidden shadow-lg"
+          >
             <Image
               src={image.imageUrl}
               alt={image.title}

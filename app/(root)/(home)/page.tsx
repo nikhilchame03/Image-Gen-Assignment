@@ -20,7 +20,7 @@ const Home = () => {
         ></Filter>
       </div>
 
-      <ImageRender searchTerm={searchTerm} />
+      <ImageRender searchTerm={searchTerm} selectedFilter={""} />
     </div>
   );
 };
