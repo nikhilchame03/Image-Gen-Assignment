@@ -1,0 +1,85 @@
+{
+    "images": [
+      {
+        "id": "1",
+        "title": "Abstract Landscape",
+        "imageUrl": "/api/placeholder/400/300",
+        "generationDate": "2025-01-26T10:30:00Z",
+        "aiModel": "Stable Diffusion",
+        "tags": ["landscape", "abstract"]
+      },
+      {
+        "id": "2",
+        "title": "Futuristic City",
+        "imageUrl": "/api/placeholder/400/300",
+        "generationDate": "2025-01-26T10:30:00Z",
+        "aiModel": "DALL-E",
+        "tags": ["city", "futuristic"]
+      },
+      {
+        "id": "3",
+        "title": "Surreal Portrait",
+        "imageUrl": "/api/placeholder/400/300",
+        "generationDate": "2025-01-27T12:00:00Z",
+        "aiModel": "DeepArt",
+        "tags": ["portrait", "surreal"]
+      },
+      {
+        "id": "4",
+        "title": "Cyberpunk Streets",
+        "imageUrl": "/api/placeholder/400/300",
+        "generationDate": "2025-01-27T14:15:00Z",
+        "aiModel": "Stable Diffusion",
+        "tags": ["cyberpunk", "streets"]
+      },
+      {
+        "id": "5",
+        "title": "Fantasy Forest",
+        "imageUrl": "/api/placeholder/400/300",
+        "generationDate": "2025-01-28T09:45:00Z",
+        "aiModel": "DALL-E",
+        "tags": ["forest", "fantasy"]
+      },
+      {
+        "id": "6",
+        "title": "Ocean Waves",
+        "imageUrl": "/api/placeholder/400/300",
+        "generationDate": "2025-01-28T10:00:00Z",
+        "aiModel": "Stable Diffusion",
+        "tags": ["ocean", "waves"]
+      },
+      {
+        "id": "7",
+        "title": "Golden Sunset",
+        "imageUrl": "/api/placeholder/400/300",
+        "generationDate": "2025-01-28T11:30:00Z",
+        "aiModel": "DeepArt",
+        "tags": ["sunset", "golden"]
+      },
+      {
+        "id": "8",
+        "title": "Space Exploration",
+        "imageUrl": "/api/placeholder/400/300",
+        "generationDate": "2025-01-28T12:45:00Z",
+        "aiModel": "DALL-E",
+        "tags": ["space", "exploration"]
+      },
+      {
+        "id": "9",
+        "title": "Vintage Car",
+        "imageUrl": "/api/placeholder/400/300",
+        "generationDate": "2025-01-28T14:00:00Z",
+        "aiModel": "Stable Diffusion",
+        "tags": ["vintage", "car"]
+      },
+      {
+        "id": "10",
+        "title": "Modern Architecture",
+        "imageUrl": "/api/placeholder/400/300",
+        "generationDate": "2025-01-28T15:15:00Z",
+        "aiModel": "DALL-E",
+        "tags": ["architecture", "modern"]
+      }
+    ]
+  }
+  
